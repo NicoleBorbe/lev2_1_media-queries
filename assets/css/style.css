@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Arrows';
+    font-style: normal;
+    src: local('Arrows'), url(/Tag_40/lev2_1_media-queries/assets/fonts/Arrows.ttf);
+}
+@font-face {
+    font-family: 'Social Media Circled';
+    font-style: normal;
+    src: local('Social Media Circled'), url(/Tag_40/lev2_1_media-queries/assets/fonts/Social\ Media\ Circled.otf);
+}
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Karla'), url(/Tag_39_the-design-shop/assets/fonts/Karla/static/Karla-Regular.ttf);
+}
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Karla'), url(/Tag_39_the-design-shop/assets/fonts/Karla/static/Karla-SemiBold.ttf);
+}
+html {
+    font-size: 62.5%;
+    /* = 10px */
+}
+main {
+    display: flex;
+}
+section {
+    width: 50vw;
+    height: 85vh;
+}
+section:nth-of-type(2) {
+    background-image: url(../img/104_2_dieter_rams_the_jf_chen_collection_july_2018_artur_braun_and_fritz_eichler_sk_25_radio__wright_auction.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h1 {
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 2rem 0rem 10rem 4rem;
+    display: flex;
+}
+h2 {
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin: 2rem 0rem 5rem 4rem;
+}
+p {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 2rem 4rem 10rem 4rem;
+    color: grey;
+    display: flex;
+}
+main h3 {
+    font-family: 'Karla';
+    font-weight: 600;
+    margin: 2rem 0rem 5rem 4rem;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+article:nth-of-type(2) {
+    padding-left: 0rem;
+}
+footer {
+    /* display: flex; */
+    justify-content: space-between;
+    height: 15vh;
+    background-color: #F3F3F3;
+    display: flex;
+}
+h4 {
+    font-family: 'Social Media Circled';
+    font-size: 2.5rem;
+}
+footer h3 {
+    font-family: 'Arrows';
+    font-size: 3rem;
+}
+article:nth-of-type(1) h3 {
+    font-family: 'Arrows';
+    font-size: 3rem;
+    font-weight: 600;
+}
+article:nth-of-type(2) h3 {
+    font-family: 'Arrows';
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 4.5rem;
+}
+h5 {
+    text-align: end;
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 2rem;
+}
+h6 {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: grey;
+    text-align: end;
+}
